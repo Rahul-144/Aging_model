@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from Residual_block import ResidualBlock
+from models.Residual_block import ResidualBlock
 
 class Generator(nn.Module):
     def __init__(self, ngf, n_residual_blocks=9):
