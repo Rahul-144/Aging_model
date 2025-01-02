@@ -10,9 +10,9 @@ config = {
     'identity_weight': 5.0,   # Identity loss weight
     'cycle_weight': 10.0,     # Cycle loss weight
     'adv_weight': 1.0,        # Adversarial loss weight
-    'trainYoung_dir': '/Aging_model/Data/trainYoung',  # Path to the young age dataset
-    'trainMiddle_dir': '/Aging_model/Data/trainMiddle',  # Path to the middle-aged dataset
-    'trainOld_dir': '/Aging_model/Data/trainOld',  # Path to the old age dataset
+    'trainYoung_dir': 'Data/trainYoung',  # Path to the young age dataset
+    'trainMiddle_dir': 'Data/trainMiddle',  # Path to the middle-aged dataset
+    'trainOld_dir': 'Data/trainOld',  # Path to the old age dataset
     'num_workers': 4,          # Number of workers for the DataLoader
     'weight_decay':0.001
 }

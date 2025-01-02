@@ -1,0 +1,14 @@
+adv_weight: 1.0
+batch_size: 8
+cycle_weight: 10.0
+identity_weight: 5.0
+img_size: 256
+lr: 0.0002
+n_blocks: 9
+ndf: 64
+ngf: 32
+num_workers: 4
+trainMiddle_dir: /Aging_model/Data/trainMiddle
+trainOld_dir: /Aging_model/Data/trainOld
+trainYoung_dir: /Aging_model/Data/trainYoung
+weight_decay: 0.001
